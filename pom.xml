@@ -402,6 +402,13 @@
 		</site>
 	</distributionManagement>
 
+    <repositories>
+        <repository>
+            <id>eclipse</id>
+            <url>https://repo.eclipse.org/content/groups/releases/</url>
+        </repository>
+    </repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>net.jcip</groupId>
